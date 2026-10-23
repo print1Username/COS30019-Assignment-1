@@ -12,3 +12,6 @@ Config.toml
 
 # Pycharm
 .idea/
+
+# Cache
+__pycache__/
