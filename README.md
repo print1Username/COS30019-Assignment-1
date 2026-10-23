@@ -60,7 +60,7 @@ cd path/to/your/file
 Once you've found the program's file path,
 you can run the main program in the command line by using:
 ```commandline
-python main.py
+python app.py
 ```
 
 ### Help
@@ -69,7 +69,7 @@ simply run the command below.
 This will display the program's help instructions.
 
 ```commandline
-python main.py --help
+python app.py --help
 ```
 
 ### Search Strategy
@@ -78,7 +78,7 @@ If you want to run the program with **Breadth-First Search (BFS)**, you can run 
 \
 *Notice: CLI only accept small letter*
 ```commandline
-python main.py --strategy bfs
+python app.py --strategy bfs
 ```
 \
 **List for the Search Strategy:**
@@ -103,7 +103,7 @@ Unable to detect the file 'file.txt'. Please double check the file nam and try a
 
 For setting the file name, just use this command:
 ```commandline
-python main.py --readfile your_file_name.txt
+python app.py --readfile your_file_name.txt
 ```
 
 If the program successfully finds the file, the output will look something like this:
@@ -116,14 +116,14 @@ By default, this program saves the solution to a file named **file_sol.txt**.
 If you want to disable this feature, just use the following command:
 
 ```commandline
-python main.py --no-generate
+python app.py --no-generate
 ```
 
 If you prefer to name the solution file yourself,
 rather than using the default **file_sol.txt**,
 you can manually set the filename with a command similar to this:
 ```commandline
-python main.py --writefile your_file_name.txt
+python app.py --writefile your_file_name.txt
 ```
 
 ### Window Generate
@@ -133,7 +133,7 @@ In default, the Program will generate the output window for look.
 
 If you want to disable it, you can just enter in CLI like this:
 ```commandline
-python main.py --no-window 
+python app.py --no-window 
 ```
 
 ## Program Running
