@@ -10,8 +10,18 @@ Config.toml
 # the config files used for testing, Uncomment the following line if you want to commit the test config files
 #!**/tests/Config.toml
 
-# Pycharm
+# IDE 
 .idea/
+.vscode/
 
 # Cache
 __pycache__/
+*.py[cod]
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Testing Cache
+.pytest_cache/
